@@ -4,6 +4,7 @@
   margin: auto;
   justify-content: center;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .list {
@@ -30,9 +31,21 @@
 .input-field {
   padding: 10px;
   outline: none;
-  border: none;
-  border-bottom: 2px solid #333;
+  border: 2px solid #333;
+  width: 45%;
   font-size: 20px;
+}
+.button {
+  font-size: 20px;
+  cursor: pointer;
+  border: 2px solid #333;
+  padding: 10px;
+  color: white;
+  background-color: green;
+}
+
+.button:hover {
+  background-color: rgb(8, 136, 8);
 }
 
 @media screen and (max-width: 768px) {
@@ -43,7 +56,7 @@
     width: 95%;
   }
   .list {
-    margin-left: -1.5rem;
+    margin-left: -2.5rem;
   }
 
   .list-item {
