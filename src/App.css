@@ -44,6 +44,11 @@
   background-color: green;
 }
 
+.link{
+  text-decoration: none;
+  color: white;
+}
+
 .button:hover {
   background-color: rgb(8, 136, 8);
 }
